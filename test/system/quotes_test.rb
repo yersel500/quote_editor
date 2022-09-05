@@ -2,13 +2,13 @@ require 'application_system_test_case'
 
 class QuotesTest < ApplicationSystemTestCase
   setup do
-    @quote = quote(:first)
+    @quote = quotes(:first)
   end
   test 'Creating a new quote' do
     visit quotes_path
     assert_selector 'h1', text: 'Quotes'
     click_on 'New quote'
-    assert_selector 'h1', text: 'New quote'
+    assert_selector 'h1', text: 'New Quote'
     fill_in 'Name', with: 'Capybara quote'
     click_on 'Create quote'
   end
@@ -37,7 +37,7 @@ class QuotesTest < ApplicationSystemTestCase
     visit quotes_path
     assert_text @quote.name
 
-    click_on 'delete', match: :first
+    click_on 'Delete', match: :first
     assert_no_text @quote.name
   end
 end
