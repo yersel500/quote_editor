@@ -3,5 +3,7 @@
   <div class='header'>
     <h1>New Quote</h1>
   </div>
-  <%= render 'form', quote: @quote %>
+  <%= turbo_frame_tag "second_frame" do %>
+    <%= render 'form', quote: @quote %>
+  <% end %>
 </main>
