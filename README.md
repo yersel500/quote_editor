@@ -46,7 +46,7 @@ To get a local copy up and running follow these simple example steps.
 
 ## Application Live Demo
 
-[Live Demo](https://shrouded-brushlands-11034.herokuapp.com/)
+[Live Demo](https://morning-star-3738.fly.dev/)
 
 ## Author
 
