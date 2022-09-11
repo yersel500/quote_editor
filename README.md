@@ -4,7 +4,7 @@
 
 The Quote Editor is a responsive SPA application that helps users to make fast quotation. It allows to name a quote, and add items tracking the date it was added to the quotation.
 
-![image](https://img001.prntscr.com/file/img001/4fwXDdmZQAi627LgcTDslA.png)
+![image](https://img001.prntscr.com/file/img001/bzucHQ5_RdCVAM5WhCXNMA.png)
 
 ## Built with
 
