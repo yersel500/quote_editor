@@ -10,5 +10,5 @@ Rails.application.routes.draw do
       resources :line_items, except: %i[index show]
     end
   end
-  root 'pages#home'
+  root 'quotes#index'
 end
