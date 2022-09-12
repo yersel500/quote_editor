@@ -41,12 +41,16 @@ To get a local copy up and running follow these simple example steps.
 
 > \*_Steps to excute test of the app locally_
 
-- Run `bin/rails db:sedd`
+- Run `bin/rails db:seed`
 - Run `bin/rails test:all`
 
 ## Application Live Demo
 
 [Live Demo](https://morning-star-3738.fly.dev/)
+
+
+https://user-images.githubusercontent.com/92594336/189763661-9ac2e389-d2a8-42eb-a5c4-7d7e04264e51.mp4
+
 
 ## Author
 
