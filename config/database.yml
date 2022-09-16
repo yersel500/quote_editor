@@ -81,6 +81,4 @@ test:
 #
 production:
   <<: *default
-  database: quote_editor_production2
-  username: quote_editor
-  password: <%= ENV["QUOTE_EDITOR_DATABASE_PASSWORD"] %>
+  password: <%= ENV['DATABASE_URL'] %>
